@@ -21,5 +21,12 @@ export default {
   markdown: {
     mermaid: true,
   },
+  // Optional:
+  themeConfig: {
+    mermaid: {
+      // should make mermaid display text without broken foreignObject's, but it doesn't
+      htmlLabels: false,
+    },
+  },
 };
 ```
